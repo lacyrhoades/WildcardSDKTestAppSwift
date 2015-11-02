@@ -8,6 +8,8 @@
 
 import UIKit
 
+import WildcardSDK
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        WildcardSDK.initializeWithApiKey("f605e2f7-a096-43cf-9098-8901507566f5")
         return true
     }
 
